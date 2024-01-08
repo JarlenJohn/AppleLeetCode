@@ -12,6 +12,8 @@
 		061D3D712B3E7863006B23AE /* SwiftNumber206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D3D702B3E7863006B23AE /* SwiftNumber206.swift */; };
 		061D3D722B3E7E23006B23AE /* SwiftNumber25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066BE9322B3D5A70001A2D6A /* SwiftNumber25.swift */; };
 		062AA3702B3984DE0096EC2C /* SwiftNumber22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062AA36F2B3984DE0096EC2C /* SwiftNumber22.swift */; };
+		0643192C2B4BD9B9005DACBF /* SwiftNumber31.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */; };
+		0643192F2B4BF5B9005DACBF /* Number31.m in Sources */ = {isa = PBXBuildFile; fileRef = 0643192E2B4BF5B9005DACBF /* Number31.m */; };
 		065F339B2B47A92D0065774E /* SwfitNumber30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F339A2B47A92D0065774E /* SwfitNumber30.swift */; };
 		065F339E2B47FAC90065774E /* Number30.m in Sources */ = {isa = PBXBuildFile; fileRef = 065F339D2B47FAC90065774E /* Number30.m */; };
 		066BC01C2B19C02A00FBCBDD /* SwiftNumber8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066BC01B2B19C02A00FBCBDD /* SwiftNumber8.swift */; };
@@ -76,6 +78,9 @@
 		0605FD572B2FE09E008FA6C7 /* SwiftNumber13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber13.swift; sourceTree = "<group>"; };
 		061D3D702B3E7863006B23AE /* SwiftNumber206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber206.swift; sourceTree = "<group>"; };
 		062AA36F2B3984DE0096EC2C /* SwiftNumber22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber22.swift; sourceTree = "<group>"; };
+		0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber31.swift; sourceTree = "<group>"; };
+		0643192D2B4BF5B9005DACBF /* Number31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number31.h; sourceTree = "<group>"; };
+		0643192E2B4BF5B9005DACBF /* Number31.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number31.m; sourceTree = "<group>"; };
 		065F339A2B47A92D0065774E /* SwfitNumber30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwfitNumber30.swift; sourceTree = "<group>"; };
 		065F339C2B47FAC90065774E /* Number30.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number30.h; sourceTree = "<group>"; };
 		065F339D2B47FAC90065774E /* Number30.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number30.m; sourceTree = "<group>"; };
@@ -203,7 +208,7 @@
 			children = (
 				06F2FDA82B34439400535788 /* Finished */,
 				06E4C2552B0CAA1500B8586D /* LetCode-Bridging-Header.h */,
-				065F339A2B47A92D0065774E /* SwfitNumber30.swift */,
+				0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -212,8 +217,8 @@
 			isa = PBXGroup;
 			children = (
 				06EB76AE2B467CA000F95537 /* finished */,
-				065F339C2B47FAC90065774E /* Number30.h */,
-				065F339D2B47FAC90065774E /* Number30.m */,
+				0643192D2B4BF5B9005DACBF /* Number31.h */,
+				0643192E2B4BF5B9005DACBF /* Number31.m */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -257,6 +262,8 @@
 				06EB76C82B467CA000F95537 /* Number28.m */,
 				06EB76D22B467CA000F95537 /* Number29.h */,
 				06EB76C02B467CA000F95537 /* Number29.m */,
+				065F339C2B47FAC90065774E /* Number30.h */,
+				065F339D2B47FAC90065774E /* Number30.m */,
 				06EB76EA2B46AC9000F95537 /* Number50.h */,
 				06EB76EB2B46AC9000F95537 /* Number50.m */,
 				06EB76CB2B467CA000F95537 /* Number206.h */,
@@ -268,6 +275,7 @@
 		06F2FDA82B34439400535788 /* Finished */ = {
 			isa = PBXGroup;
 			children = (
+				065F339A2B47A92D0065774E /* SwfitNumber30.swift */,
 				06E4C2562B0CAA1600B8586D /* SwiftNumber4.swift */,
 				06F88E5E2B146ECD008B964E /* SwiftNumber5.swift */,
 				06F03B502B158F1200E439C5 /* SwiftNumber6.swift */,
@@ -324,7 +332,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					06E191062B031A8A0064F5CE = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -364,6 +372,7 @@
 				06EB76E02B467CA000F95537 /* Number19.m in Sources */,
 				06EB76E22B467CA000F95537 /* Number28.m in Sources */,
 				06F2FDA22B33DED900535788 /* SwiftNumber17.swift in Sources */,
+				0643192C2B4BD9B9005DACBF /* SwiftNumber31.swift in Sources */,
 				06EB76DD2B467CA000F95537 /* Number23.m in Sources */,
 				06011F832B3926EB0044F27F /* SwiftNumber21.swift in Sources */,
 				0672D29A2B2965C400BE4D7C /* SwiftNumber11.swift in Sources */,
@@ -404,6 +413,7 @@
 				06EB76E32B467CA000F95537 /* Number22.m in Sources */,
 				06EB76D82B467CA000F95537 /* Number1_10.m in Sources */,
 				06FA7DB32B3A6FC100D74DD5 /* SwiftNumber23.swift in Sources */,
+				0643192F2B4BF5B9005DACBF /* Number31.m in Sources */,
 				06EB76D72B467CA000F95537 /* Number206.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +455,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -506,6 +517,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -523,6 +535,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
@@ -531,6 +544,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LetCode/Swift/LetCode-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -543,6 +557,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LetCode/Swift/LetCode-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

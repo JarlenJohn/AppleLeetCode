@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger val;
 
-@property (nonatomic, strong) ListNodeOC *next;
+@property (nonatomic, strong, nullable) ListNodeOC *next;
 
 - (instancetype)initWithVal:(NSInteger)val;
 - (instancetype)initWithVal:(NSInteger)val next:(ListNodeOC *)next;

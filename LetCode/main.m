@@ -6,21 +6,22 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Number30.h"
+#import "Number31.h"
 
 #import <LetCode-Swift.h>
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Number30 *obj = [[Number30 alloc] init];
+//        SwiftNumber31 *obj = [[SwiftNumber31 alloc] init];
+//        [obj test];
         
-        NSArray *res = [obj findSubstring:@"barfoothefoobarman" words:@[@"foo",@"bar"]];
-        for (NSNumber *num in res) {
+        Number31 *obj = [[Number31 alloc] init];
+        
+        NSMutableArray *nums = @[@3, @2, @1].mutableCopy;
+        [obj nextPermutation:nums];
+        for (NSNumber *num in nums) {
             NSLog(@"%ld, ", [num integerValue]);
         }
-        
-//        SwiftNumber30 *obj = [[SwiftNumber30 alloc] init];
-//        [obj test];
     }
     return 0;
 }

@@ -334,7 +334,31 @@
     return res;
 }
 
+#pragma mark - 9
+- (BOOL)isPalindrome:(NSInteger)x {
+    //处理边界情况
+    if (x < 0 || (x%10 == 0 && x/10 != 0)) {
+        return NO;
+    }
+    
+    //翻转一半后判断是否相等即可确定是否为回文数
+    NSInteger reversedNum = 0;
+    while (x > reversedNum) {
+        reversedNum = reversedNum * 10 + x%10;
+        x /= 10;
+    }
+    
+    //奇数时多一位，因此除以10
+    if (x == reversedNum || x == reversedNum/10) {
+        return YES;
+    }
+    return NO;
+}
+
 @end
+
+
+
 
 
 @implementation Automation {
@@ -413,29 +437,6 @@
     }
     
     return res;
-}
-
-
-
-//9
-- (BOOL)isPalindrome:(NSInteger)x {
-    //处理边界情况
-    if (x < 0 || (x%10 == 0 && x/10 != 0)) {
-        return NO;
-    }
-    
-    //翻转一半后判断是否相等即可确定是否为回文数
-    NSInteger reversedNum = 0;
-    while (x > reversedNum) {
-        reversedNum = reversedNum * 10 + x%10;
-        x /= 10;
-    }
-    
-    //奇数时多一位，因此除以10
-    if (x == reversedNum || x == reversedNum/10) {
-        return YES;
-    }
-    return NO;
 }
 
 @end
