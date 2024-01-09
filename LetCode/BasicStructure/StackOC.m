@@ -35,6 +35,10 @@
     [self.items removeAllObjects];
 }
 
+- (BOOL)empty {
+    return self.items.count == 0;
+}
+
 
 #pragma mark - Lazy load
 - (NSMutableArray *)items {

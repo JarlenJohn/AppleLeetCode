@@ -14,9 +14,12 @@
 		062AA3702B3984DE0096EC2C /* SwiftNumber22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062AA36F2B3984DE0096EC2C /* SwiftNumber22.swift */; };
 		0643192C2B4BD9B9005DACBF /* SwiftNumber31.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */; };
 		0643192F2B4BF5B9005DACBF /* Number31.m in Sources */ = {isa = PBXBuildFile; fileRef = 0643192E2B4BF5B9005DACBF /* Number31.m */; };
-		065F339B2B47A92D0065774E /* SwfitNumber30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F339A2B47A92D0065774E /* SwfitNumber30.swift */; };
+		065F339B2B47A92D0065774E /* SwiftNumber30.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065F339A2B47A92D0065774E /* SwiftNumber30.swift */; };
 		065F339E2B47FAC90065774E /* Number30.m in Sources */ = {isa = PBXBuildFile; fileRef = 065F339D2B47FAC90065774E /* Number30.m */; };
 		066BC01C2B19C02A00FBCBDD /* SwiftNumber8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066BC01B2B19C02A00FBCBDD /* SwiftNumber8.swift */; };
+		066C18272B4D1E920058D7D6 /* SwiftBasicStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066C18262B4D1E920058D7D6 /* SwiftBasicStructure.swift */; };
+		066EDD9A2B4CE8F100FB685C /* SwiftNumber32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EDD992B4CE8F100FB685C /* SwiftNumber32.swift */; };
+		066EDD9D2B4D12CC00FB685C /* Number32.m in Sources */ = {isa = PBXBuildFile; fileRef = 066EDD9C2B4D12CC00FB685C /* Number32.m */; };
 		0672D29A2B2965C400BE4D7C /* SwiftNumber11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0672D2992B2965C400BE4D7C /* SwiftNumber11.swift */; };
 		06B4BE6F2B1F332300D469B5 /* SwiftNumber9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B4BE6E2B1F332300D469B5 /* SwiftNumber9.swift */; };
 		06C2DA8A2B2FEFC400051E2B /* SwiftNumber14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2DA892B2FEFC400051E2B /* SwiftNumber14.swift */; };
@@ -81,11 +84,15 @@
 		0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber31.swift; sourceTree = "<group>"; };
 		0643192D2B4BF5B9005DACBF /* Number31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number31.h; sourceTree = "<group>"; };
 		0643192E2B4BF5B9005DACBF /* Number31.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number31.m; sourceTree = "<group>"; };
-		065F339A2B47A92D0065774E /* SwfitNumber30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwfitNumber30.swift; sourceTree = "<group>"; };
+		065F339A2B47A92D0065774E /* SwiftNumber30.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber30.swift; sourceTree = "<group>"; };
 		065F339C2B47FAC90065774E /* Number30.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number30.h; sourceTree = "<group>"; };
 		065F339D2B47FAC90065774E /* Number30.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number30.m; sourceTree = "<group>"; };
 		066BC01B2B19C02A00FBCBDD /* SwiftNumber8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber8.swift; sourceTree = "<group>"; };
 		066BE9322B3D5A70001A2D6A /* SwiftNumber25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber25.swift; sourceTree = "<group>"; };
+		066C18262B4D1E920058D7D6 /* SwiftBasicStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicStructure.swift; sourceTree = "<group>"; };
+		066EDD992B4CE8F100FB685C /* SwiftNumber32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber32.swift; sourceTree = "<group>"; };
+		066EDD9B2B4D12CC00FB685C /* Number32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number32.h; sourceTree = "<group>"; };
+		066EDD9C2B4D12CC00FB685C /* Number32.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number32.m; sourceTree = "<group>"; };
 		0672D2992B2965C400BE4D7C /* SwiftNumber11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber11.swift; sourceTree = "<group>"; };
 		06B4BE6E2B1F332300D469B5 /* SwiftNumber9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber9.swift; sourceTree = "<group>"; };
 		06C2DA892B2FEFC400051E2B /* SwiftNumber14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber14.swift; sourceTree = "<group>"; };
@@ -199,6 +206,7 @@
 				06E191122B031AA80064F5CE /* ListNodeOC.m */,
 				06F0C53A2B357E2D00FC4621 /* StackOC.h */,
 				06F0C53B2B357E2D00FC4621 /* StackOC.m */,
+				066C18262B4D1E920058D7D6 /* SwiftBasicStructure.swift */,
 			);
 			path = BasicStructure;
 			sourceTree = "<group>";
@@ -208,7 +216,6 @@
 			children = (
 				06F2FDA82B34439400535788 /* Finished */,
 				06E4C2552B0CAA1500B8586D /* LetCode-Bridging-Header.h */,
-				0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -217,8 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				06EB76AE2B467CA000F95537 /* finished */,
-				0643192D2B4BF5B9005DACBF /* Number31.h */,
-				0643192E2B4BF5B9005DACBF /* Number31.m */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -264,6 +269,10 @@
 				06EB76C02B467CA000F95537 /* Number29.m */,
 				065F339C2B47FAC90065774E /* Number30.h */,
 				065F339D2B47FAC90065774E /* Number30.m */,
+				0643192D2B4BF5B9005DACBF /* Number31.h */,
+				0643192E2B4BF5B9005DACBF /* Number31.m */,
+				066EDD9B2B4D12CC00FB685C /* Number32.h */,
+				066EDD9C2B4D12CC00FB685C /* Number32.m */,
 				06EB76EA2B46AC9000F95537 /* Number50.h */,
 				06EB76EB2B46AC9000F95537 /* Number50.m */,
 				06EB76CB2B467CA000F95537 /* Number206.h */,
@@ -275,7 +284,6 @@
 		06F2FDA82B34439400535788 /* Finished */ = {
 			isa = PBXGroup;
 			children = (
-				065F339A2B47A92D0065774E /* SwfitNumber30.swift */,
 				06E4C2562B0CAA1600B8586D /* SwiftNumber4.swift */,
 				06F88E5E2B146ECD008B964E /* SwiftNumber5.swift */,
 				06F03B502B158F1200E439C5 /* SwiftNumber6.swift */,
@@ -299,6 +307,9 @@
 				066BE9322B3D5A70001A2D6A /* SwiftNumber25.swift */,
 				06F0589A2B43A6F7003318F9 /* SwiftNumber28.swift */,
 				06EB76A92B465D1700F95537 /* SwiftNumber29.swift */,
+				065F339A2B47A92D0065774E /* SwiftNumber30.swift */,
+				0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */,
+				066EDD992B4CE8F100FB685C /* SwiftNumber32.swift */,
 				06EB76E82B468BB400F95537 /* SwiftNumber50.swift */,
 				061D3D702B3E7863006B23AE /* SwiftNumber206.swift */,
 			);
@@ -378,6 +389,7 @@
 				0672D29A2B2965C400BE4D7C /* SwiftNumber11.swift in Sources */,
 				06EB76E62B467CA000F95537 /* Number21.m in Sources */,
 				06EB76DB2B467CA000F95537 /* Number12.m in Sources */,
+				066C18272B4D1E920058D7D6 /* SwiftBasicStructure.swift in Sources */,
 				06F0C53C2B357E2D00FC4621 /* StackOC.m in Sources */,
 				06EB76DE2B467CA000F95537 /* Number29.m in Sources */,
 				06EB76D52B467CA000F95537 /* Number11.m in Sources */,
@@ -386,7 +398,7 @@
 				06E1910B2B031A8A0064F5CE /* main.m in Sources */,
 				06EB76EC2B46AC9000F95537 /* Number50.m in Sources */,
 				06C2DA8A2B2FEFC400051E2B /* SwiftNumber14.swift in Sources */,
-				065F339B2B47A92D0065774E /* SwfitNumber30.swift in Sources */,
+				065F339B2B47A92D0065774E /* SwiftNumber30.swift in Sources */,
 				06EB76E52B467CA000F95537 /* Number14.m in Sources */,
 				06FFFBD22B1757530047EEDF /* SwiftNumber7.swift in Sources */,
 				06F0C5362B3528CA00FC4621 /* SwiftNumber19.swift in Sources */,
@@ -407,12 +419,14 @@
 				06E191132B031AA80064F5CE /* ListNodeOC.m in Sources */,
 				06EB76E72B467CA000F95537 /* Number25.m in Sources */,
 				06F88E5F2B146ECD008B964E /* SwiftNumber5.swift in Sources */,
+				066EDD9A2B4CE8F100FB685C /* SwiftNumber32.swift in Sources */,
 				06EB76DF2B467CA000F95537 /* Number13.m in Sources */,
 				06EA0ECB2B3163CF008B549E /* SwiftNumber15.swift in Sources */,
 				06F433FB2B22CB740067C866 /* SwiftNumber10.swift in Sources */,
 				06EB76E32B467CA000F95537 /* Number22.m in Sources */,
 				06EB76D82B467CA000F95537 /* Number1_10.m in Sources */,
 				06FA7DB32B3A6FC100D74DD5 /* SwiftNumber23.swift in Sources */,
+				066EDD9D2B4D12CC00FB685C /* Number32.m in Sources */,
 				0643192F2B4BF5B9005DACBF /* Number31.m in Sources */,
 				06EB76D72B467CA000F95537 /* Number206.m in Sources */,
 			);

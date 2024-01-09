@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (T)pop;
 - (T)top;
 - (void)cleanAll;
+- (BOOL)empty;
 
 @end
 

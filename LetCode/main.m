@@ -6,22 +6,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Number31.h"
+#import "Number32.h"
 
 #import <LetCode-Swift.h>
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-//        SwiftNumber31 *obj = [[SwiftNumber31 alloc] init];
+//        SwiftNumber32 *obj = [[SwiftNumber32 alloc] init];
 //        [obj test];
         
-        Number31 *obj = [[Number31 alloc] init];
-        
-        NSMutableArray *nums = @[@3, @2, @1].mutableCopy;
-        [obj nextPermutation:nums];
-        for (NSNumber *num in nums) {
-            NSLog(@"%ld, ", [num integerValue]);
-        }
+        Number32 *obj = [[Number32 alloc] init];
+        NSInteger res = [obj longestValidParentheses:@")()())"];
+        NSLog(@"res = %ld", res);
     }
     return 0;
 }

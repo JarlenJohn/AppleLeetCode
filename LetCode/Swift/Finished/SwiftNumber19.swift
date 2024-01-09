@@ -7,54 +7,6 @@
 
 import Foundation
 
-@objc class ListNode: NSObject {
-    public var val:Int
-    public var next: ListNode?
-    
-    override init() {
-        self.val = 0
-        self.next = nil
-    }
-    
-    init(_ val:Int) {
-        self.val = val
-        self.next = nil
-    }
-    
-    init(_ val:Int, _ next:ListNode?) {
-        self.val = val
-        self.next = next
-    }
-}
-
-class Stack<T> : NSObject {
-    private var items :[T]
-    
-    override init() {
-        items = [T]();
-    }
-    
-    public func push(_ t: T) {
-        items.append(t)
-    }
-    
-    public func pop() -> T {
-        return items.removeLast()
-    }
-    
-    func count() -> Int {
-        return items.count
-    }
-    
-    func clean() {
-        items.removeAll()
-    }
-    
-    func top() -> T? {
-        return items.last
-    }
-}
-
 
 @objc class SwiftNumber19 : NSObject {
     @objc func test() {
@@ -129,7 +81,7 @@ class Stack<T> : NSObject {
 //    }
     
     //计算链表长度, 删除l-n+1的位置
-    @objc func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
+    func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
         let dummyNode = ListNode(0, head);
         let len = getLenOfListNode(head)
         
