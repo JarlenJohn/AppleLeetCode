@@ -6,17 +6,19 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Number32.h"
+#import "Number33.h"
 
 #import <LetCode-Swift.h>
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-//        SwiftNumber32 *obj = [[SwiftNumber32 alloc] init];
+//        SwiftNumber33 *obj = [[SwiftNumber33 alloc] init];
 //        [obj test];
         
-        Number32 *obj = [[Number32 alloc] init];
-        NSInteger res = [obj longestValidParentheses:@")()())"];
+        Number33 *obj = [[Number33 alloc] init];
+        
+        NSArray *nums = @[@5, @1, @3];
+        NSInteger res = [obj search:nums target:3];
         NSLog(@"res = %ld", res);
     }
     return 0;
