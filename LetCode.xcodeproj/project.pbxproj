@@ -11,6 +11,10 @@
 		0605FD582B2FE09E008FA6C7 /* SwiftNumber13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605FD572B2FE09E008FA6C7 /* SwiftNumber13.swift */; };
 		060CB7F22B4E32E40051EB5C /* SwiftNumber33.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060CB7F12B4E32E40051EB5C /* SwiftNumber33.swift */; };
 		060CB7F52B4E3E8F0051EB5C /* Number33.m in Sources */ = {isa = PBXBuildFile; fileRef = 060CB7F42B4E3E8F0051EB5C /* Number33.m */; };
+		0613A87E2B50D9C40066DF4E /* SwiftNumber36.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0613A87D2B50D9C40066DF4E /* SwiftNumber36.swift */; };
+		0613A8812B50E5610066DF4E /* Number36.m in Sources */ = {isa = PBXBuildFile; fileRef = 0613A8802B50E5610066DF4E /* Number36.m */; };
+		061976492B561D0400965332 /* SwiftNumber37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061976482B561D0400965332 /* SwiftNumber37.swift */; };
+		0619764C2B56298000965332 /* Number37.m in Sources */ = {isa = PBXBuildFile; fileRef = 0619764B2B56298000965332 /* Number37.m */; };
 		061D3D712B3E7863006B23AE /* SwiftNumber206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D3D702B3E7863006B23AE /* SwiftNumber206.swift */; };
 		061D3D722B3E7E23006B23AE /* SwiftNumber25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066BE9322B3D5A70001A2D6A /* SwiftNumber25.swift */; };
 		062AA3702B3984DE0096EC2C /* SwiftNumber22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062AA36F2B3984DE0096EC2C /* SwiftNumber22.swift */; };
@@ -88,6 +92,12 @@
 		060CB7F12B4E32E40051EB5C /* SwiftNumber33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber33.swift; sourceTree = "<group>"; };
 		060CB7F32B4E3E8F0051EB5C /* Number33.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number33.h; sourceTree = "<group>"; };
 		060CB7F42B4E3E8F0051EB5C /* Number33.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number33.m; sourceTree = "<group>"; };
+		0613A87D2B50D9C40066DF4E /* SwiftNumber36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber36.swift; sourceTree = "<group>"; };
+		0613A87F2B50E5610066DF4E /* Number36.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number36.h; sourceTree = "<group>"; };
+		0613A8802B50E5610066DF4E /* Number36.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number36.m; sourceTree = "<group>"; };
+		061976482B561D0400965332 /* SwiftNumber37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber37.swift; sourceTree = "<group>"; };
+		0619764A2B56298000965332 /* Number37.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number37.h; sourceTree = "<group>"; };
+		0619764B2B56298000965332 /* Number37.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number37.m; sourceTree = "<group>"; };
 		061D3D702B3E7863006B23AE /* SwiftNumber206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber206.swift; sourceTree = "<group>"; };
 		062AA36F2B3984DE0096EC2C /* SwiftNumber22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber22.swift; sourceTree = "<group>"; };
 		0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber31.swift; sourceTree = "<group>"; };
@@ -239,6 +249,8 @@
 			isa = PBXGroup;
 			children = (
 				06EB76AE2B467CA000F95537 /* finished */,
+				0619764A2B56298000965332 /* Number37.h */,
+				0619764B2B56298000965332 /* Number37.m */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -246,6 +258,8 @@
 		06EB76AE2B467CA000F95537 /* finished */ = {
 			isa = PBXGroup;
 			children = (
+				0613A87F2B50E5610066DF4E /* Number36.h */,
+				0613A8802B50E5610066DF4E /* Number36.m */,
 				06EB76C92B467CA000F95537 /* Number1_10.h */,
 				06EB76B62B467CA000F95537 /* Number1_10.m */,
 				06EB76BD2B467CA000F95537 /* Number10.h */,
@@ -334,6 +348,8 @@
 				060CB7F12B4E32E40051EB5C /* SwiftNumber33.swift */,
 				06EE1F132B4F83E400714981 /* SwiftNumber34.swift */,
 				06EE1F182B4FE4C900714981 /* SwiftNumber35.swift */,
+				0613A87D2B50D9C40066DF4E /* SwiftNumber36.swift */,
+				061976482B561D0400965332 /* SwiftNumber37.swift */,
 				06EB76E82B468BB400F95537 /* SwiftNumber50.swift */,
 				061D3D702B3E7863006B23AE /* SwiftNumber206.swift */,
 			);
@@ -405,6 +421,7 @@
 				06EB76DA2B467CA000F95537 /* Number18.m in Sources */,
 				0605FD582B2FE09E008FA6C7 /* SwiftNumber13.swift in Sources */,
 				06EB76E02B467CA000F95537 /* Number19.m in Sources */,
+				0619764C2B56298000965332 /* Number37.m in Sources */,
 				06EB76E22B467CA000F95537 /* Number28.m in Sources */,
 				060CB7F52B4E3E8F0051EB5C /* Number33.m in Sources */,
 				06F2FDA22B33DED900535788 /* SwiftNumber17.swift in Sources */,
@@ -412,6 +429,7 @@
 				06EB76DD2B467CA000F95537 /* Number23.m in Sources */,
 				06011F832B3926EB0044F27F /* SwiftNumber21.swift in Sources */,
 				0672D29A2B2965C400BE4D7C /* SwiftNumber11.swift in Sources */,
+				061976492B561D0400965332 /* SwiftNumber37.swift in Sources */,
 				06EB76E62B467CA000F95537 /* Number21.m in Sources */,
 				06EB76DB2B467CA000F95537 /* Number12.m in Sources */,
 				066C18272B4D1E920058D7D6 /* SwiftBasicStructure.swift in Sources */,
@@ -421,6 +439,7 @@
 				06EB76D52B467CA000F95537 /* Number11.m in Sources */,
 				065F339E2B47FAC90065774E /* Number30.m in Sources */,
 				06EB76DC2B467CA000F95537 /* Number16.m in Sources */,
+				0613A87E2B50D9C40066DF4E /* SwiftNumber36.swift in Sources */,
 				06E1910B2B031A8A0064F5CE /* main.m in Sources */,
 				06EB76EC2B46AC9000F95537 /* Number50.m in Sources */,
 				06C2DA8A2B2FEFC400051E2B /* SwiftNumber14.swift in Sources */,
@@ -438,6 +457,7 @@
 				06F8DB9A2B3BBD2200BA4406 /* SwiftNumber24.swift in Sources */,
 				06EB76AA2B465D1700F95537 /* SwiftNumber29.swift in Sources */,
 				062AA3702B3984DE0096EC2C /* SwiftNumber22.swift in Sources */,
+				0613A8812B50E5610066DF4E /* Number36.m in Sources */,
 				06EF3C272B2BED76000A8B9F /* SwiftNumber12.swift in Sources */,
 				06EB76D92B467CA000F95537 /* Number24.m in Sources */,
 				06EB76E92B468BB400F95537 /* SwiftNumber50.swift in Sources */,
