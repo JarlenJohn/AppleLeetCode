@@ -17,6 +17,8 @@
 		0619764C2B56298000965332 /* Number37.m in Sources */ = {isa = PBXBuildFile; fileRef = 0619764B2B56298000965332 /* Number37.m */; };
 		061D3D712B3E7863006B23AE /* SwiftNumber206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D3D702B3E7863006B23AE /* SwiftNumber206.swift */; };
 		061D3D722B3E7E23006B23AE /* SwiftNumber25.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066BE9322B3D5A70001A2D6A /* SwiftNumber25.swift */; };
+		062910F02B5770FE0092D4D8 /* SwiftNumber38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062910EF2B5770FE0092D4D8 /* SwiftNumber38.swift */; };
+		062910F32B5783660092D4D8 /* Number38.m in Sources */ = {isa = PBXBuildFile; fileRef = 062910F22B5783660092D4D8 /* Number38.m */; };
 		062AA3702B3984DE0096EC2C /* SwiftNumber22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062AA36F2B3984DE0096EC2C /* SwiftNumber22.swift */; };
 		0643192C2B4BD9B9005DACBF /* SwiftNumber31.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */; };
 		0643192F2B4BF5B9005DACBF /* Number31.m in Sources */ = {isa = PBXBuildFile; fileRef = 0643192E2B4BF5B9005DACBF /* Number31.m */; };
@@ -99,6 +101,9 @@
 		0619764A2B56298000965332 /* Number37.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number37.h; sourceTree = "<group>"; };
 		0619764B2B56298000965332 /* Number37.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number37.m; sourceTree = "<group>"; };
 		061D3D702B3E7863006B23AE /* SwiftNumber206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber206.swift; sourceTree = "<group>"; };
+		062910EF2B5770FE0092D4D8 /* SwiftNumber38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber38.swift; sourceTree = "<group>"; };
+		062910F12B5783660092D4D8 /* Number38.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number38.h; sourceTree = "<group>"; };
+		062910F22B5783660092D4D8 /* Number38.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number38.m; sourceTree = "<group>"; };
 		062AA36F2B3984DE0096EC2C /* SwiftNumber22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber22.swift; sourceTree = "<group>"; };
 		0643192B2B4BD9B9005DACBF /* SwiftNumber31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber31.swift; sourceTree = "<group>"; };
 		0643192D2B4BF5B9005DACBF /* Number31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number31.h; sourceTree = "<group>"; };
@@ -249,8 +254,6 @@
 			isa = PBXGroup;
 			children = (
 				06EB76AE2B467CA000F95537 /* finished */,
-				0619764A2B56298000965332 /* Number37.h */,
-				0619764B2B56298000965332 /* Number37.m */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -258,8 +261,6 @@
 		06EB76AE2B467CA000F95537 /* finished */ = {
 			isa = PBXGroup;
 			children = (
-				0613A87F2B50E5610066DF4E /* Number36.h */,
-				0613A8802B50E5610066DF4E /* Number36.m */,
 				06EB76C92B467CA000F95537 /* Number1_10.h */,
 				06EB76B62B467CA000F95537 /* Number1_10.m */,
 				06EB76BD2B467CA000F95537 /* Number10.h */,
@@ -308,6 +309,12 @@
 				06EE1F162B4F8DD000714981 /* Number34.m */,
 				06EE1F1A2B4FF29900714981 /* Number35.h */,
 				06EE1F1B2B4FF29900714981 /* Number35.m */,
+				0613A87F2B50E5610066DF4E /* Number36.h */,
+				0613A8802B50E5610066DF4E /* Number36.m */,
+				0619764A2B56298000965332 /* Number37.h */,
+				0619764B2B56298000965332 /* Number37.m */,
+				062910F12B5783660092D4D8 /* Number38.h */,
+				062910F22B5783660092D4D8 /* Number38.m */,
 				06EB76EA2B46AC9000F95537 /* Number50.h */,
 				06EB76EB2B46AC9000F95537 /* Number50.m */,
 				06EB76CB2B467CA000F95537 /* Number206.h */,
@@ -350,6 +357,7 @@
 				06EE1F182B4FE4C900714981 /* SwiftNumber35.swift */,
 				0613A87D2B50D9C40066DF4E /* SwiftNumber36.swift */,
 				061976482B561D0400965332 /* SwiftNumber37.swift */,
+				062910EF2B5770FE0092D4D8 /* SwiftNumber38.swift */,
 				06EB76E82B468BB400F95537 /* SwiftNumber50.swift */,
 				061D3D702B3E7863006B23AE /* SwiftNumber206.swift */,
 			);
@@ -428,6 +436,7 @@
 				0643192C2B4BD9B9005DACBF /* SwiftNumber31.swift in Sources */,
 				06EB76DD2B467CA000F95537 /* Number23.m in Sources */,
 				06011F832B3926EB0044F27F /* SwiftNumber21.swift in Sources */,
+				062910F32B5783660092D4D8 /* Number38.m in Sources */,
 				0672D29A2B2965C400BE4D7C /* SwiftNumber11.swift in Sources */,
 				061976492B561D0400965332 /* SwiftNumber37.swift in Sources */,
 				06EB76E62B467CA000F95537 /* Number21.m in Sources */,
@@ -435,6 +444,7 @@
 				066C18272B4D1E920058D7D6 /* SwiftBasicStructure.swift in Sources */,
 				06F0C53C2B357E2D00FC4621 /* StackOC.m in Sources */,
 				06EB76DE2B467CA000F95537 /* Number29.m in Sources */,
+				062910F02B5770FE0092D4D8 /* SwiftNumber38.swift in Sources */,
 				060CB7F22B4E32E40051EB5C /* SwiftNumber33.swift in Sources */,
 				06EB76D52B467CA000F95537 /* Number11.m in Sources */,
 				065F339E2B47FAC90065774E /* Number30.m in Sources */,
