@@ -8,40 +8,59 @@
 import Foundation
 
 class SwiftNumber39 {
+    var freq = [(Int, Int)]()//记录数字出现的频率，元组表示（Int，Int），第一个参数为数字，第二个参数为次数
+    var ans:[[Int]] = [[Int]]()
+    var sequence = [Int]()
     
-    /*
-     典型的回溯+递归，太经典了，代码很美
-     */
-    func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
-        var ans = [[Int]]()
-        var combine = [Int]()
+    
+    
+    func combinationSum2(_ candidates: [Int], _ target: Int) -> [[Int]] {
         
-        dfs(candidates, target, &ans, &combine, 0)
+        let candi = candidates.sorted()
+        
+        //记录每个数据出现的次数
+        for val in candi {
+            if freq.isEmpty || val != freq.last!.0 {
+                freq.append((val, 1))
+            }else {
+                let cnt = freq.last!.1 + 1
+                let _ = freq.popLast()
+                freq.append((val, cnt))
+            }
+        }
+        
+        dfs(0, target)
         
         return ans
     }
     
-    func dfs(_ candidates: [Int], _ target: Int, _ ans: inout [[Int]], _ combine: inout [Int], _ idx: Int) {
-        //定义递归的终止条件：1.到达数据末尾； 2.target为0
-        if idx == candidates.count {
+    func dfs(_ pos: Int, _ rest: Int) {
+        
+        if rest == 0 {
+            ans.append(sequence)
             return
         }
         
-        if target == 0 {
-            ans.append(combine)
+        if pos == freq.count || rest < freq[pos].0 {
             return
         }
         
-        //直接跳过，递归下一个
-        dfs(candidates, target, &ans, &combine, idx+1)
+        dfs(pos+1, rest)
         
-        if target - candidates[idx] >= 0 {
-            //尝试用candidates[idx]解题
-            combine.append(candidates[idx])
+        
+        let most = min(rest/freq[pos].0, freq[pos].1)
+        if most == 0 {
+            return
+        }
+        
+        for i in 1...most {
+            sequence.append(freq[pos].0)
             
-            dfs(candidates, target-candidates[idx], &ans, &combine, idx)
-            
-            let _ = combine.popLast()
+            dfs(pos+1, rest-i*freq[pos].0)
+        }
+        
+        for _ in 1...most {
+            let _ = sequence.removeLast()
         }
     }
 }

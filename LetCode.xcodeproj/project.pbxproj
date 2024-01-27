@@ -31,6 +31,8 @@
 		0672D29A2B2965C400BE4D7C /* SwiftNumber11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0672D2992B2965C400BE4D7C /* SwiftNumber11.swift */; };
 		06B4BE6F2B1F332300D469B5 /* SwiftNumber9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B4BE6E2B1F332300D469B5 /* SwiftNumber9.swift */; };
 		06C2DA8A2B2FEFC400051E2B /* SwiftNumber14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2DA892B2FEFC400051E2B /* SwiftNumber14.swift */; };
+		06D34BF82B63AB7700FD0F6D /* Number40.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D34BF72B63AB7700FD0F6D /* Number40.m */; };
+		06D6502C2B61FCC700C7504A /* SwiftNumber40.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D6502B2B61FCC700C7504A /* SwiftNumber40.swift */; };
 		06E1910B2B031A8A0064F5CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E1910A2B031A8A0064F5CE /* main.m */; };
 		06E191132B031AA80064F5CE /* ListNodeOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E191122B031AA80064F5CE /* ListNodeOC.m */; };
 		06E4C2572B0CAA1600B8586D /* SwiftNumber4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E4C2562B0CAA1600B8586D /* SwiftNumber4.swift */; };
@@ -122,6 +124,9 @@
 		0672D2992B2965C400BE4D7C /* SwiftNumber11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber11.swift; sourceTree = "<group>"; };
 		06B4BE6E2B1F332300D469B5 /* SwiftNumber9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber9.swift; sourceTree = "<group>"; };
 		06C2DA892B2FEFC400051E2B /* SwiftNumber14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber14.swift; sourceTree = "<group>"; };
+		06D34BF62B63AB7700FD0F6D /* Number40.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number40.h; sourceTree = "<group>"; };
+		06D34BF72B63AB7700FD0F6D /* Number40.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number40.m; sourceTree = "<group>"; };
+		06D6502B2B61FCC700C7504A /* SwiftNumber40.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber40.swift; sourceTree = "<group>"; };
 		06E191072B031A8A0064F5CE /* LetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E1910A2B031A8A0064F5CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06E191112B031AA80064F5CE /* ListNodeOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNodeOC.h; sourceTree = "<group>"; };
@@ -251,6 +256,7 @@
 			children = (
 				06F2FDA82B34439400535788 /* Finished */,
 				06E4C2552B0CAA1500B8586D /* LetCode-Bridging-Header.h */,
+				06D6502B2B61FCC700C7504A /* SwiftNumber40.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXGroup;
 			children = (
 				06EB76AE2B467CA000F95537 /* finished */,
+				06D34BF62B63AB7700FD0F6D /* Number40.h */,
+				06D34BF72B63AB7700FD0F6D /* Number40.m */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -436,6 +444,7 @@
 				06E8B2A32B3286E3006E13F5 /* SwiftNumber16.swift in Sources */,
 				06EB76DA2B467CA000F95537 /* Number18.m in Sources */,
 				0605FD582B2FE09E008FA6C7 /* SwiftNumber13.swift in Sources */,
+				06D6502C2B61FCC700C7504A /* SwiftNumber40.swift in Sources */,
 				06EB76E02B467CA000F95537 /* Number19.m in Sources */,
 				0619764C2B56298000965332 /* Number37.m in Sources */,
 				06EB76E22B467CA000F95537 /* Number28.m in Sources */,
@@ -491,6 +500,7 @@
 				06EB76DF2B467CA000F95537 /* Number13.m in Sources */,
 				06EA0ECB2B3163CF008B549E /* SwiftNumber15.swift in Sources */,
 				06F433FB2B22CB740067C866 /* SwiftNumber10.swift in Sources */,
+				06D34BF82B63AB7700FD0F6D /* Number40.m in Sources */,
 				06EB76E32B467CA000F95537 /* Number22.m in Sources */,
 				06EB76D82B467CA000F95537 /* Number1_10.m in Sources */,
 				06FA7DB32B3A6FC100D74DD5 /* SwiftNumber23.swift in Sources */,
