@@ -29,6 +29,8 @@
 		066EDD9A2B4CE8F100FB685C /* SwiftNumber32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EDD992B4CE8F100FB685C /* SwiftNumber32.swift */; };
 		066EDD9D2B4D12CC00FB685C /* Number32.m in Sources */ = {isa = PBXBuildFile; fileRef = 066EDD9C2B4D12CC00FB685C /* Number32.m */; };
 		0672D29A2B2965C400BE4D7C /* SwiftNumber11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0672D2992B2965C400BE4D7C /* SwiftNumber11.swift */; };
+		06ABC9852B8841890047DE52 /* SwiftNumber41.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC9842B8841890047DE52 /* SwiftNumber41.swift */; };
+		06ABC9882B884AAF0047DE52 /* Number41.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ABC9872B884AAF0047DE52 /* Number41.m */; };
 		06B4BE6F2B1F332300D469B5 /* SwiftNumber9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B4BE6E2B1F332300D469B5 /* SwiftNumber9.swift */; };
 		06C2DA8A2B2FEFC400051E2B /* SwiftNumber14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2DA892B2FEFC400051E2B /* SwiftNumber14.swift */; };
 		06D34BF82B63AB7700FD0F6D /* Number40.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D34BF72B63AB7700FD0F6D /* Number40.m */; };
@@ -122,6 +124,9 @@
 		066EDD9B2B4D12CC00FB685C /* Number32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number32.h; sourceTree = "<group>"; };
 		066EDD9C2B4D12CC00FB685C /* Number32.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number32.m; sourceTree = "<group>"; };
 		0672D2992B2965C400BE4D7C /* SwiftNumber11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber11.swift; sourceTree = "<group>"; };
+		06ABC9842B8841890047DE52 /* SwiftNumber41.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber41.swift; sourceTree = "<group>"; };
+		06ABC9862B884AAF0047DE52 /* Number41.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number41.h; sourceTree = "<group>"; };
+		06ABC9872B884AAF0047DE52 /* Number41.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number41.m; sourceTree = "<group>"; };
 		06B4BE6E2B1F332300D469B5 /* SwiftNumber9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber9.swift; sourceTree = "<group>"; };
 		06C2DA892B2FEFC400051E2B /* SwiftNumber14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber14.swift; sourceTree = "<group>"; };
 		06D34BF62B63AB7700FD0F6D /* Number40.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number40.h; sourceTree = "<group>"; };
@@ -256,7 +261,7 @@
 			children = (
 				06F2FDA82B34439400535788 /* Finished */,
 				06E4C2552B0CAA1500B8586D /* LetCode-Bridging-Header.h */,
-				06D6502B2B61FCC700C7504A /* SwiftNumber40.swift */,
+				06ABC9842B8841890047DE52 /* SwiftNumber41.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -265,8 +270,8 @@
 			isa = PBXGroup;
 			children = (
 				06EB76AE2B467CA000F95537 /* finished */,
-				06D34BF62B63AB7700FD0F6D /* Number40.h */,
-				06D34BF72B63AB7700FD0F6D /* Number40.m */,
+				06ABC9862B884AAF0047DE52 /* Number41.h */,
+				06ABC9872B884AAF0047DE52 /* Number41.m */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -330,6 +335,8 @@
 				062910F22B5783660092D4D8 /* Number38.m */,
 				06F0BAA92B5A2B21008B273F /* Number39.h */,
 				06F0BAAA2B5A2B21008B273F /* Number39.m */,
+				06D34BF62B63AB7700FD0F6D /* Number40.h */,
+				06D34BF72B63AB7700FD0F6D /* Number40.m */,
 				06EB76EA2B46AC9000F95537 /* Number50.h */,
 				06EB76EB2B46AC9000F95537 /* Number50.m */,
 				06EB76CB2B467CA000F95537 /* Number206.h */,
@@ -374,6 +381,7 @@
 				061976482B561D0400965332 /* SwiftNumber37.swift */,
 				062910EF2B5770FE0092D4D8 /* SwiftNumber38.swift */,
 				06F0BAA72B5A1E5B008B273F /* SwiftNumber39.swift */,
+				06D6502B2B61FCC700C7504A /* SwiftNumber40.swift */,
 				06EB76E82B468BB400F95537 /* SwiftNumber50.swift */,
 				061D3D702B3E7863006B23AE /* SwiftNumber206.swift */,
 			);
@@ -441,6 +449,7 @@
 				06EB76D62B467CA000F95537 /* Number15.m in Sources */,
 				06B4BE6F2B1F332300D469B5 /* SwiftNumber9.swift in Sources */,
 				06F0589B2B43A6F7003318F9 /* SwiftNumber28.swift in Sources */,
+				06ABC9882B884AAF0047DE52 /* Number41.m in Sources */,
 				06E8B2A32B3286E3006E13F5 /* SwiftNumber16.swift in Sources */,
 				06EB76DA2B467CA000F95537 /* Number18.m in Sources */,
 				0605FD582B2FE09E008FA6C7 /* SwiftNumber13.swift in Sources */,
@@ -479,6 +488,7 @@
 				06EE1F1C2B4FF29900714981 /* Number35.m in Sources */,
 				06F03B512B158F1200E439C5 /* SwiftNumber6.swift in Sources */,
 				06EB76E12B467CA000F95537 /* Number17.m in Sources */,
+				06ABC9852B8841890047DE52 /* SwiftNumber41.swift in Sources */,
 				06EE1F192B4FE4C900714981 /* SwiftNumber35.swift in Sources */,
 				06EE1F142B4F83E400714981 /* SwiftNumber34.swift in Sources */,
 				06F8DB9A2B3BBD2200BA4406 /* SwiftNumber24.swift in Sources */,
