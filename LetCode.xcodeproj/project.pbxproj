@@ -261,7 +261,6 @@
 			children = (
 				06F2FDA82B34439400535788 /* Finished */,
 				06E4C2552B0CAA1500B8586D /* LetCode-Bridging-Header.h */,
-				06ABC9842B8841890047DE52 /* SwiftNumber41.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -270,8 +269,6 @@
 			isa = PBXGroup;
 			children = (
 				06EB76AE2B467CA000F95537 /* finished */,
-				06ABC9862B884AAF0047DE52 /* Number41.h */,
-				06ABC9872B884AAF0047DE52 /* Number41.m */,
 			);
 			path = OC;
 			sourceTree = "<group>";
@@ -337,6 +334,8 @@
 				06F0BAAA2B5A2B21008B273F /* Number39.m */,
 				06D34BF62B63AB7700FD0F6D /* Number40.h */,
 				06D34BF72B63AB7700FD0F6D /* Number40.m */,
+				06ABC9862B884AAF0047DE52 /* Number41.h */,
+				06ABC9872B884AAF0047DE52 /* Number41.m */,
 				06EB76EA2B46AC9000F95537 /* Number50.h */,
 				06EB76EB2B46AC9000F95537 /* Number50.m */,
 				06EB76CB2B467CA000F95537 /* Number206.h */,
@@ -382,6 +381,7 @@
 				062910EF2B5770FE0092D4D8 /* SwiftNumber38.swift */,
 				06F0BAA72B5A1E5B008B273F /* SwiftNumber39.swift */,
 				06D6502B2B61FCC700C7504A /* SwiftNumber40.swift */,
+				06ABC9842B8841890047DE52 /* SwiftNumber41.swift */,
 				06EB76E82B468BB400F95537 /* SwiftNumber50.swift */,
 				061D3D702B3E7863006B23AE /* SwiftNumber206.swift */,
 			);
