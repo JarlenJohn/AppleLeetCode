@@ -12,9 +12,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        SwiftNumber38 *obj = [[SwiftNumber38 alloc] init];
-        NSString *res = [obj countAndSay:4];
-        NSLog(@"%@", res);
+        SwiftNumber41 *obj = [[SwiftNumber41 alloc] init];
+        [obj test];
     }
     return 0;
 }
