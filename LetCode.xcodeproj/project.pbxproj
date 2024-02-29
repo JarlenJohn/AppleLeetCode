@@ -11,6 +11,7 @@
 		0605FD582B2FE09E008FA6C7 /* SwiftNumber13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0605FD572B2FE09E008FA6C7 /* SwiftNumber13.swift */; };
 		060CB7F22B4E32E40051EB5C /* SwiftNumber33.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060CB7F12B4E32E40051EB5C /* SwiftNumber33.swift */; };
 		060CB7F52B4E3E8F0051EB5C /* Number33.m in Sources */ = {isa = PBXBuildFile; fileRef = 060CB7F42B4E3E8F0051EB5C /* Number33.m */; };
+		060F66342B903A83002C8DD0 /* SwiftNumber44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F66332B903A83002C8DD0 /* SwiftNumber44.swift */; };
 		0613A87E2B50D9C40066DF4E /* SwiftNumber36.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0613A87D2B50D9C40066DF4E /* SwiftNumber36.swift */; };
 		0613A8812B50E5610066DF4E /* Number36.m in Sources */ = {isa = PBXBuildFile; fileRef = 0613A8802B50E5610066DF4E /* Number36.m */; };
 		061976492B561D0400965332 /* SwiftNumber37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061976482B561D0400965332 /* SwiftNumber37.swift */; };
@@ -104,6 +105,7 @@
 		060CB7F12B4E32E40051EB5C /* SwiftNumber33.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber33.swift; sourceTree = "<group>"; };
 		060CB7F32B4E3E8F0051EB5C /* Number33.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number33.h; sourceTree = "<group>"; };
 		060CB7F42B4E3E8F0051EB5C /* Number33.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number33.m; sourceTree = "<group>"; };
+		060F66332B903A83002C8DD0 /* SwiftNumber44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber44.swift; sourceTree = "<group>"; };
 		0613A87D2B50D9C40066DF4E /* SwiftNumber36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNumber36.swift; sourceTree = "<group>"; };
 		0613A87F2B50E5610066DF4E /* Number36.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Number36.h; sourceTree = "<group>"; };
 		0613A8802B50E5610066DF4E /* Number36.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Number36.m; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 			children = (
 				06F2FDA82B34439400535788 /* Finished */,
 				06E4C2552B0CAA1500B8586D /* LetCode-Bridging-Header.h */,
+				060F66332B903A83002C8DD0 /* SwiftNumber44.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -534,6 +537,7 @@
 				06F8ED7C2B89DBFA0040DBD0 /* Number42.m in Sources */,
 				06EB76D82B467CA000F95537 /* Number1_10.m in Sources */,
 				06FA7DB32B3A6FC100D74DD5 /* SwiftNumber23.swift in Sources */,
+				060F66342B903A83002C8DD0 /* SwiftNumber44.swift in Sources */,
 				06F0BAA82B5A1E5B008B273F /* SwiftNumber39.swift in Sources */,
 				066EDD9D2B4D12CC00FB685C /* Number32.m in Sources */,
 				0643192F2B4BF5B9005DACBF /* Number31.m in Sources */,
